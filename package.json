@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/statoil/react-native-trustkit#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.9.0",
     "eslint-config-airbnb": "^17.1.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3"
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.6"
   },
   "peerDependencies": {
     "ajv": "^5.0.1",
