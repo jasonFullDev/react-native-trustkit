@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.0"
 
   s.source       = { :git => "git+https://github.com/Statoil/react-native-trustkit.git", :tag => "#{s.version}" }
-  s.source_files = "ios/RNTrustkitPlugint/**/*.{h,m}"
+  s.source_files = "ios/RNTrustKitPlugin/**/*.{h,m}"
   s.static_framework = true
 
   s.dependency 'React'
