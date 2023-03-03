@@ -140,7 +140,7 @@ RCT_REMAP_METHOD(configure,
          setObject:nextPinnedDomains
          forKey:kTSKPinnedDomains];
 
-        [TrustKit initializeWithConfiguration:trustKitConfig];
+         [TrustKit initSharedInstanceWithConfiguration:trustKitConfig];
 
         _isTrustKitInitialized = YES;
 
