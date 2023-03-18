@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
 
   s.license      = package["license"]
-  s.platform     = :ios, "12.0"
+  s.platform     = :ios, "12.4"
 
   s.source       = { :git => "git+https://github.com/Statoil/react-native-trustkit.git", :tag => "#{s.version}" }
   s.source_files = "ios/RNTrustKitPlugin/**/*.{h,m}"
